@@ -149,6 +149,8 @@ export default {
         .catch((err) => {
           console.log(`nhi hua bhai ye rha errr ${err}`);
         });
+        
+        location.reload();
     },
   },
   async mounted() {
