@@ -421,7 +421,7 @@ export default {
       leetcodeuser: "",
       datafromAPI: {},
 
-                  contestRanking:[],
+             contestRanking:[],
              toatal_solved:'',
              easy_solved:'',
              medium_solved:'',
@@ -567,7 +567,7 @@ export default {
       document.getElementById("formContID").style.display = "none";
       document.getElementById("profileContID").style.visibility = "visible";
       document.getElementById("profileContID").style.display = "flex";
-      // location.reload();
+      location.reload();
       this.$router.push("/student/profile");
       // this.$router.go()
     },
